@@ -16,6 +16,9 @@ public class Main {
 
             if (input.equals("/exit")) {
                 break;
+            } else if (input.equals("/help")) {
+                System.out.println("The program calculates the sum of numbers");
+                continue;
             }
 
             List<Integer> numbers = InputProcessor.getNumbers(input);
